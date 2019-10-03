@@ -1,0 +1,11 @@
+Format: http://www.debian.org/doc/packaging-manuals/Copyright 1-2019 The Wazo Authors  (see the AUTHORS file)
+Upstream-Name: graphene
+Source: https://github.com/graphql-python/graphene/
+
+Files: *
+Copyright: Syrus Akbary
+License: MIT
+
+Files: debian/*
+Copyright: 2019 The Wazo Authors  (see the AUTHORS file)
+License: GPL-3

@@ -1,0 +1,20 @@
+Source: wazo-python-graphene-packaging
+Section: python
+Priority: optional
+Maintainer: Wazo Maintainers <dev+pkg@wazo.community>
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               python3-all,
+               python3-setuptools
+Standards-Version: 3.9.6
+X-Python3-Version: >= 3.7
+
+Package: python3-graphene
+Architecture: all
+Depends: ${misc:Depends},
+         ${python3:Depends},
+         python3-graphql-core,
+         python3-graphql-relay,
+         python3-aniso8601
+Description: Library for building GraphQL schemas/types fast and easily.
+ .
