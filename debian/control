@@ -16,5 +16,11 @@ Depends: ${misc:Depends},
          python3-graphql-core,
          python3-graphql-relay,
          python3-aniso8601
-Description: Library for building GraphQL schemas/types fast and easily.
+Description: Library for building GraphQL schemas/types fast and easily
  .
+ - Easy to use: Graphene helps you use GraphQL in Python without effort.
+ - Relay: Graphene has builtin support for Relay.
+ - Data agnostic: Graphene supports any kind of data source: SQL
+   (Django, SQLAlchemy), NoSQL, custom Python objects, etc. We believe
+   that by providing a complete API you could plug Graphene anywhere
+   your data lives and make your data available through GraphQL.
