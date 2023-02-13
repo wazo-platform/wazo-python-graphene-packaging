@@ -2,7 +2,7 @@ Source: wazo-python-graphene-packaging
 Section: python
 Priority: optional
 Maintainer: Wazo Maintainers <dev+pkg@wazo.community>
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 12),
                dh-python,
                python3-all,
                python3-setuptools
@@ -17,10 +17,10 @@ Depends: ${misc:Depends},
          python3-graphql-relay,
          python3-aniso8601
 Description: Library for building GraphQL schemas/types fast and easily
- .
  - Easy to use: Graphene helps you use GraphQL in Python without effort.
  - Relay: Graphene has builtin support for Relay.
  - Data agnostic: Graphene supports any kind of data source: SQL
    (Django, SQLAlchemy), NoSQL, custom Python objects, etc. We believe
    that by providing a complete API you could plug Graphene anywhere
    your data lives and make your data available through GraphQL.
+ .
