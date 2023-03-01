@@ -1,3 +1,9 @@
+wazo-python-graphene-packaging (3.2.1-1~wazo1) wazo-dev-buster; urgency=medium
+
+  * Update to 3.2.1
+
+ -- Wazo Maintainers <dev+pkg@wazo.community>  Mon, 01 Mar 2023 15:09:15 -0500
+
 wazo-python-graphene-packaging (2.1.8-1~wazo3) wazo-dev-buster; urgency=medium
 
   * Use debhelper 12

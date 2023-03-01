@@ -13,8 +13,8 @@ Package: python3-graphene
 Architecture: all
 Depends: ${misc:Depends},
          ${python3:Depends},
-         python3-graphql-core,
-         python3-graphql-relay,
+         python3-graphql-core (>= 3.2),
+         python3-graphql-relay (>> 3.1),
          python3-aniso8601
 Description: Library for building GraphQL schemas/types fast and easily
  - Easy to use: Graphene helps you use GraphQL in Python without effort.
