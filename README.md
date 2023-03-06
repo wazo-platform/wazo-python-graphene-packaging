@@ -18,6 +18,6 @@ To build on a test environment before submitting a change to production the foll
 ```sh
 debian/rules get-orig-source
 tar -xvf ../wazo-python-graphene-packaging_*.orig.tar.gz  --strip 1
-debuild -us -uc
+dpkg-buildpackage -us -uc
 ```
 The `.deb` will be located in the parent directory.
