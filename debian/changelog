@@ -1,3 +1,9 @@
+wazo-python-graphene-packaging (3.2.1-1~wazo4) wazo-dev-bullseye; urgency=medium
+
+  * Fix copyright Format
+
+ -- Wazo Maintainers <dev+pkg@wazo.community>  Thu, 29 Feb 2024 11:24:44 -0500
+
 wazo-python-graphene-packaging (3.2.1-1~wazo3) wazo-dev-bullseye; urgency=medium
 
   * Update zuul config
