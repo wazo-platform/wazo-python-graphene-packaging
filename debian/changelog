@@ -1,3 +1,9 @@
+wazo-python-graphene-packaging (3.2.1-1~wazo5) wazo-dev-bullseye; urgency=medium
+
+  * Follow debian guideline for copyright file
+
+ -- Wazo Maintainers <dev+pkg@wazo.community>  Wed, 06 Mar 2024 15:43:27 -0500
+
 wazo-python-graphene-packaging (3.2.1-1~wazo4) wazo-dev-bullseye; urgency=medium
 
   * Fix copyright Format
