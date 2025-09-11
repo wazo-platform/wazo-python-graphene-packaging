@@ -1,3 +1,9 @@
+wazo-python-graphene-packaging (3.2.1-1~wazo6) wazo-dev-bookworm; urgency=medium
+
+  * Rebuild for Bookworm
+
+ -- Wazo Maintainers <dev+pkg@wazo.community>  Thu, 11 Sep 2025 08:36:13 -0400
+
 wazo-python-graphene-packaging (3.2.1-1~wazo5) wazo-dev-bullseye; urgency=medium
 
   * Follow debian guideline for copyright file
